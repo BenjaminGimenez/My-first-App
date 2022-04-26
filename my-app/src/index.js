@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 
 //importo la libreria de bootstrap instalada
 
-//import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 //estilos importados de forma globa;
 
@@ -20,8 +20,8 @@ import "bootstrap/dist/js/bootstrap.bundle"
 
 import App from './App'
 
-import UserContainer from "./components/UserContainer";
-import Counter from "./components/Counter";
+// import UserContainer from "./components/UserContainer";
+// import Counter from "./components/Counter";
 
 //const elemento=<h1>hola React!!!</h1>
 
@@ -31,7 +31,7 @@ const contenedor=document.querySelector("#root")
 
 //para poder llamar al componente que creamos en React pongo el nombre del archivo react(App) adentro de </>
 
-ReactDOM.render(<Counter/>, contenedor)
+ReactDOM.render(<App/>, contenedor)
 
 //========================================================
 

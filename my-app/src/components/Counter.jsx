@@ -4,6 +4,8 @@ import React,{useState} from 'react'
 
 const Counter = () => {
 
+  //estado del componente generado para aplicar los Hooks
+  
 const [counter, setCounter] = useState(0)
 
 

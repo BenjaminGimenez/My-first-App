@@ -2,29 +2,25 @@
 //Estructura para React
 
 import React from "react"; //importamos siempre para poder usar JSX
-import Heroes from "./components/Heroes";
-
-import Mensaje from "./components/Mensaje";
-
-import { heroes } from "./datos/datos";
+import TodoList from "./components/todo/TodoList";
 
 //a la funcion le pongo el mismo nombre que el componente (App)
 
 const App = ()=>{
 
-    const nombre = "Pepito"
-    //afuera va codigo java script (variables, funciones, etc)
+//afuera va codigo java script (variables, funciones, etc)
 
     return(
     //adentro va renderizar y mostrar en el ordenador (JSX)
     //para poder renderizar varios elementos, agrego un DIV en Return y agrego los elementos dentro
+      
+      <TodoList/>
 
-    <div>
 
-        <h1>Soy un componente</h1>
-        <Mensaje dato={nombre}/>
-        <Heroes heroes={heroes}/>
-    </div>
+
+
+
+   
     )
 
 }
